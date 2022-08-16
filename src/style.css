@@ -1,0 +1,65 @@
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.enter,
+.drag {
+  height: 30px;
+  margin-top: 10px;
+}
+
+#sync {
+  height: 30px;
+  margin-top: -5px;
+  margin-bottom: 10px;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
+  width: 50%;
+  justify-self: center;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  margin-left: -35px;
+  border-bottom: 1px solid lightgray;
+}
+
+button,
+.InputText,
+.lists {
+  border: none;
+  outline: none;
+  height: 50px;
+}
+
+button {
+  margin-top: -16px;
+  background-color: rgb(216, 216, 216);
+  color: rgb(99, 99, 99);
+}
+
+button:hover {
+  text-decoration: underline;
+}
+
+.InputText {
+  font-style: italic;
+  width: 80vw;
+}
+
+.lists {
+  width: 35vw;
+}
